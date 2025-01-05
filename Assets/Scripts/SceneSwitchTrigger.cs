@@ -15,7 +15,7 @@ public class SceneSwitchTrigger : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            sceneSwitch.SwitchScene(sceneName);
+                    sceneSwitch.SwitchScene(sceneName);
         }
     }
 }
