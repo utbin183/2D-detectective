@@ -26,6 +26,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Floor2.unity
     guid: f8ecdb63c7d8b034c8c7ca9f82fc3b10
+  - enabled: 1
+    path: Assets/Scenes/Bathroom.unity
+    guid: cdec537bb98480743ad06f1b78346748
+  - enabled: 1
+    path: Assets/Scenes/Floor1-GoDownStairs.unity
+    guid: fb6641949d3b95442b6fa1c18adba375
+  - enabled: 1
+    path: Assets/Scenes/BathToFloor2.unity
+    guid: f54e9a89b6206dd48b7458edfaeb9241
+  - enabled: 1
+    path: Assets/Scenes/GardenToFloor1.unity
+    guid: 17b2f2f3c33452345a38631b1bbde1b0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
