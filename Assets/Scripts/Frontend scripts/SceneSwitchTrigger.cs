@@ -8,14 +8,14 @@ public class SceneSwitchTrigger : MonoBehaviour
     [System.Obsolete]
     private void Start()
     {
-        sceneSwitch = FindObjectOfType<SceneSwitch>();
+            sceneSwitch = FindObjectOfType<SceneSwitch>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
         {
-                    sceneSwitch.SwitchScene(sceneName);
+            sceneSwitch.SwitchScene(sceneName);
         }
     }
 }

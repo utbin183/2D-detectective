@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider;
     private float horizontalInput;
-
+   
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -26,8 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("Walk", horizontalInput != 0);
         body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
-
-       
-       
     }
+    
 }
